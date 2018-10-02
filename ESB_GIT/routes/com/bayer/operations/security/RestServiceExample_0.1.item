@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="local" jobType="Standard" xmi:id="_1cYSVMYZEeibM5iZC0L9Bw" xmi:version="2.0">
+  <context confirmationNeeded="false" name="local" xmi:id="_1cYSVcYZEeibM5iZC0L9Bw">
+    <contextParameter comment="" name="SERVICE_URL" prompt="SERVICE_URL?" promptNeeded="false" type="id_String" value="http://127.0.0.1:8040/services/TalendEncryptionService" xmi:id="_1cYSVsYZEeibM5iZC0L9Bw"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD" xmi:id="_1cYSV8YZEeibM5iZC0L9Bw">
+    <contextParameter comment="" name="SERVICE_URL" prompt="SERVICE_URL?" promptNeeded="false" type="id_String" value="/TalendEncryptionService" xmi:id="_1cYSWMYZEeibM5iZC0L9Bw"/>
+  </context>
+  <parameters xmi:id="_1cYSWcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_1cYSWsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="72" xmi:id="_1cYSW8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_1cYSXMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_1cYSXcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_1cYSXsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_1cYSX8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_1cYSYMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_1cYSYcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_1cYSYsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_1cYSY8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_1cYSZMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_1cYSZcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_1cYSZsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_1cYSZ8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_1cYSaMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_1cYSacYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_1cYSasYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FTXmFP3EEeatWrVyy5JibQ" name="DQTechnical" xmi:id="_1cYSa8YZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FGRlQP3EEeatWrVyy5JibQ" name="DataMasking" xmi:id="_1cYSbMYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FTqhA_3EEeatWrVyy5JibQ" name="DataOperation" xmi:id="_1cYSbcYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FTN1E_3EEeatWrVyy5JibQ" name="DataQualityDependencies" xmi:id="_1cYSbsYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FTErI_3EEeatWrVyy5JibQ" name="DataQuality" xmi:id="_1cYSb8YZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FTXmEP3EEeatWrVyy5JibQ" name="DqStringHandling" xmi:id="_1cYScMYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FT0SAP3EEeatWrVyy5JibQ" name="Mathematical" xmi:id="_1cYSccYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FT9b8P3EEeatWrVyy5JibQ" name="Numeric" xmi:id="_1cYScsYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FT9b9P3EEeatWrVyy5JibQ" name="Relational" xmi:id="_1cYSc8YZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FThXE_3EEeatWrVyy5JibQ" name="SQLike" xmi:id="_1cYSdMYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FUHM8P3EEeatWrVyy5JibQ" name="StringHandling" xmi:id="_1cYSdcYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FUQ98P3EEeatWrVyy5JibQ" name="TalendDataGenerator" xmi:id="_1cYSdsYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FUQ99P3EEeatWrVyy5JibQ" name="TalendDate" xmi:id="_1cYSd8YZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_od2v0KK1EeeouMy2j8C-AA" name="TalendStringUtil" xmi:id="_1cYSeMYZEeibM5iZC0L9Bw"/>
+    <routinesParameter id="_FUaH4_3EEeatWrVyy5JibQ" name="TalendString" xmi:id="_1cYSecYZEeibM5iZC0L9Bw"/>
+  </parameters>
+  <node componentName="cREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128" xmi:id="_1cYSesYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cREST_1" xmi:id="_1cYSe8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="URL" value="context.SERVICE_URL" xmi:id="_1cYSfMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="SERVICE_TYPE" value="RESOURCECLASS" xmi:id="_1cYSfcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="PATH" show="false" value="constant(&quot;/services/customers/&quot;)" xmi:id="_1cYSfsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="HTTP_METHOD" show="false" value="GET" xmi:id="_1cYSf8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" show="false" value="application/xml" xmi:id="_1cYSgMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" show="false" value="application/xml" xmi:id="_1cYSgcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="RESPONSE_BEAN" show="false" value="" xmi:id="_1cYSgsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="SCHEMAS" show="false" xmi:id="_1cYSg8YZEeibM5iZC0L9Bw">
+      <elementValue elementRef="SCHEMA" value="get" xmi:id="_1cYShMYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="HTTP_VERB" value="GET" xmi:id="_1cYShcYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="URI_PATTERN" value="&quot;/&quot;" xmi:id="_1cYShsYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="CONSUMES" value="NONE" xmi:id="_1cYSh8YZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="PRODUCES" value="ANY" xmi:id="_1cYSiMYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="BEAN" value="" xmi:id="_1cYSicYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="SCHEMA" value="encrypt" xmi:id="_1cYSisYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="HTTP_VERB" value="POST" xmi:id="_1cYSi8YZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="URI_PATTERN" value="&quot;/encrypt&quot;" xmi:id="_1cYSjMYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="CONSUMES" value="XML-JSON" xmi:id="_1cYSjcYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="PRODUCES" value="XML-JSON" xmi:id="_1cYSjsYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="BEAN" value="beans.TalendEncryptionRequest" xmi:id="_1cYSj8YZEeibM5iZC0L9Bw"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="RESOURCE_CLASS" value="beans.TalendEncryptionService" xmi:id="_1cYSkMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="RESOURCE_OPERATION" show="false" value="constant(&quot;operationName&quot;)" xmi:id="_1cYSkcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false" xmi:id="_1cYSksYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;http://www.talend.org/rest/&quot;" xmi:id="_1cYSk8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;" xmi:id="_1cYSlMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false" xmi:id="_1cYSlcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ENABLE_SECURITY" value="false" xmi:id="_1cYSlsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_TYPE" show="false" value="BASIC" xmi:id="_1cYSl8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;" xmi:id="_1cYSmMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="0RMsyjmybrE=" xmi:id="_1cYSmcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_AUTHORIZATION" show="false" value="false" xmi:id="_1cYSmsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="ROLE_NAME" show="false" value="&quot;&quot;" xmi:id="_1cYSm8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ENABLE_CORRELATION" value="false" xmi:id="_1cYSnMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;" xmi:id="_1cYSncYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false" xmi:id="_1cYSnsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="EXPOSE_SWAGGER_SPEC" value="true" xmi:id="_1cYSn8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="INCLUDE_DOC_INTO_SWAGGER_SPEC" value="false" xmi:id="_1cYSoMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" xmi:id="_1cYSocYZEeibM5iZC0L9Bw">
+      <elementValue elementRef="NAME" value="&quot;providers&quot;" xmi:id="_1cYSosYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="VALUE" value="&quot;#jsonProvider&quot;" xmi:id="_1cYSo8YZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="NAME" value="&quot;bindingStyle&quot;" xmi:id="_1cYSpMYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="VALUE" value="&quot;SimpleConsumer&quot;" xmi:id="_1cYSpcYZEeibM5iZC0L9Bw"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="SL_META_DATA" show="false" xmi:id="_1cYSpsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;REST Service&lt;/b&gt;" xmi:id="_1cYSp8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYSqMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true" xmi:id="_1cYSqcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Custom JSON provider is needed to avoid root wrapping elements in JSON payload.&#13;&#10;SimpleBinding ensures that the payload is mapped to the type defined within the interface.&#13;&#10;&#13;&#10;XML or JSON Annotation are required in request/response class for correct binding.&#13;&#10;&#13;&#10;Sample Requests:&#13;&#10;&#13;&#10;Option 1:&#13;&#10;POST http://localhost:8040/TalendEncryptionService/encrypt&#13;&#10;{&#10;&#9;&quot;projectName&quot;: &quot;PS_HC_SC_DPT&quot;,&#10;&#9;&quot;environment&quot;: &quot;QA&quot;,&#10;&#9;&quot;plainText&quot;: &quot;A9o8g3ri91jg1&quot;&#10;}&#13;&#10;&#13;&#10;Option 2:&#13;&#10;POST http://localhost:8040/TalendEncryptionService/PROD/projectName/encrypt&#13;&#10;A9o8g3ri91jg1" xmi:id="_1cYSqsYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cBeanRegister" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="-64" xmi:id="_1cYSq8YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cBeanRegister_1" xmi:id="_1cYSrMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="ID" value="&quot;jsonProvider&quot;" xmi:id="_1cYSrcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="SIMPLE_CONFIG" value="false" xmi:id="_1cYSrsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="CONFIG_BY_CODE" value="true" xmi:id="_1cYSr8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CLASS_QUALIFIED_NAME" show="false" value="java.lang.Object" xmi:id="_1cYSsMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="SPECIFY_ARGUMENTS" show="false" value="false" xmi:id="_1cYSscYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_1cYSssYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.apache.cxf.jaxrs.provider.json.JSONProvider;" xmi:id="_1cYSs8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="NOTE" value="Note: Provide own codes to specify *beanInstance* variable" xmi:id="_1cYStMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="JSONProvider jsonProvider = new JSONProvider();&#10;jsonProvider.setDropRootElement(true);&#10;jsonProvider.setSupportUnwrapped(true);&#10;&#10;beanInstance = jsonProvider;" xmi:id="_1cYStcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;register JSON provider&lt;/b&gt;" xmi:id="_1cYStsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYSt8YZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cConfig" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="-64" xmi:id="_1cYSuMYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cConfig_1" xmi:id="_1cYSucYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="" xmi:id="_1cYSusYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="&#10;" xmi:id="_1cYSu8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_SE" show="false" xmi:id="_1cYSvMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" xmi:id="_1cYSvcYZEeibM5iZC0L9Bw">
+      <elementValue elementRef="JAR_NAME" value="cxf-rt-rs-extension-providers-3.1.11.jar" xmi:id="_1cYSvsYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="JAR_PATH" value="" xmi:id="_1cYSv8YZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="JAR_NEXUS_VERSION" value="" xmi:id="_1cYSwMYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="JAR_NEXUS_PRE_VERSION" value="" xmi:id="_1cYSwcYZEeibM5iZC0L9Bw"/>
+    </elementParameter>
+    <elementParameter field="LABEL" name="WARNING" value="*Note: External JARs will not be embedded in OSGi bundle by default, to configure it please edit Route Manifest" xmi:id="_1cYSwsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_MDC_LOGGING" value="false" xmi:id="_1cYSw8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK_NEXUS_BUTTON" name="CHECK_OPTION" value="&quot;&quot;" xmi:id="_1cYSxMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="SYNC_NEXUS_BUTTON" name="SYNC_OPTION" value="&quot;&quot;" xmi:id="_1cYSxcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NEED_UPDATE_LIST" xmi:id="_1cYSxsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;dependencies&lt;/b&gt;" xmi:id="_1cYSx8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYSyMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true" xmi:id="_1cYSycYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Import extension for JSON Provider&#13;&#10;Import bayer specific crypto engine" xmi:id="_1cYSysYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128" xmi:id="_1cYSy8YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMessageRouter_1" xmi:id="_1cYSzMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" show="false" value="constant" xmi:id="_1cYSzcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;Operation Router&lt;/b&gt;" xmi:id="_1cYSzsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYSz8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true" xmi:id="_1cYS0MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Two methods are available&#13;&#10;1. Option JSON Payload in Request and Response (legacy support)&#13;&#10;2. Option Path encoded values, Simple Text Request and Response (recommended)&#13;&#10;&#13;&#10;Sending error if non matches" xmi:id="_1cYS0cYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128" xmi:id="_1cYS0sYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_1cYS08YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="header" xmi:id="_1cYS1MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;operationName&quot;" xmi:id="_1cYS1cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_1cYS1sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_1cYS18YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_1cYS2MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;writeResponse&lt;/b&gt;" xmi:id="_1cYS2cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYS2sYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224" xmi:id="_1cYS28YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_3" xmi:id="_1cYS3MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="constant" xmi:id="_1cYS3cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;invalid request&quot;" xmi:id="_1cYS3sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_1cYS38YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_1cYS4MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_1cYS4cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;invalid request&lt;/b&gt;" xmi:id="_1cYS4sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYS48YZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32" xmi:id="_1cYS5MYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cProcessor_2" xmi:id="_1cYS5cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import beans.TalendEncryptionResponse;" xmi:id="_1cYS5sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="TalendEncryptionResponse response = new TalendEncryptionResponse();&#10;response.setProjectName(&quot;myProjectName&quot;);&#10;response.setEncryptedValue(&quot;myEncSecret&quot;);&#10;exchange.getOut().setBody(response);" xmi:id="_1cYS58YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;writeResponse&lt;/b&gt;" xmi:id="_1cYS6MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYS6cYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cOnException" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="320" xmi:id="_1cYS6sYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cOnException_1" xmi:id="_1cYS68YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="EXCEPTIONS" xmi:id="_1cYS7MYZEeibM5iZC0L9Bw">
+      <elementValue elementRef="EXCEPTION" value="java.lang.Exception" xmi:id="_1cYS7cYZEeibM5iZC0L9Bw"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_MAX_REDELIVERY" value="true" xmi:id="_1cYS7sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="MAX_REDELIVERY" value="0" xmi:id="_1cYS78YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ASYNC_REDELIVERY" value="false" xmi:id="_1cYS8MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="NONE" value="true" xmi:id="_1cYS8cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="HANDLE" value="false" xmi:id="_1cYS8sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="CONTINUE" value="false" xmi:id="_1cYS88YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_ORIGINAL_MESSAGE" value="false" xmi:id="_1cYS9MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;handle Exception&lt;/b&gt;" xmi:id="_1cYS9cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYS9sYZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="320" xmi:id="_1cYS98YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_1cYS-MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="constant" xmi:id="_1cYS-cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;Password Encryption failed, please try again later or contact you administrator&quot;" xmi:id="_1cYS-sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_1cYS-8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_1cYS_MYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_1cYS_cYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;setErrorMsg&lt;/b&gt;" xmi:id="_1cYS_sYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYS_8YZEeibM5iZC0L9Bw"/>
+  </node>
+  <node componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320" xmi:id="_1cYTAMYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_1cYTAcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LOGGING_CATEGORY" value="&quot;PasswordEncryptionService.cLog_1&quot;" xmi:id="_1cYTAsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL_TYPE" value="ERROR" xmi:id="_1cYTA8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="NOTHING" value="false" xmi:id="_1cYTBMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="GROUP_SIZE" value="false" xmi:id="_1cYTBcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="1" xmi:id="_1cYTBsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="GROUP_INTERVAL" value="false" xmi:id="_1cYTB8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="1" xmi:id="_1cYTCMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="DELAY" show="false" value="0" xmi:id="_1cYTCcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ACTIVE_ONLY" show="false" value="true" xmi:id="_1cYTCsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="RADIO" name="FORMAT" value="false" xmi:id="_1cYTC8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_1cYTDMYZEeibM5iZC0L9Bw">
+      <elementValue elementRef="NAME" value="&quot;showAll&quot;" xmi:id="_1cYTDcYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="VALUE" value="true" xmi:id="_1cYTDsYZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="NAME" value="&quot;multiline&quot;" xmi:id="_1cYTD8YZEeibM5iZC0L9Bw"/>
+      <elementValue elementRef="VALUE" value="true" xmi:id="_1cYTEMYZEeibM5iZC0L9Bw"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_LOGEIP" value="true" xmi:id="_1cYTEcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;${header.CaughtExceptionType}&quot;" xmi:id="_1cYTEsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt;log ERROR&lt;/b&gt;" xmi:id="_1cYTE8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_1cYTFMYZEeibM5iZC0L9Bw"/>
+  </node>
+  <connection connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cREST_1" target="cMessageRouter_1" xmi:id="_1cYTFcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route1" xmi:id="_1cYTFsYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <connection connectorName="ROUTE_WHEN" label="when1" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="cMessageRouter_1" target="cProcessor_2" xmi:id="_1cYTF8YZEeibM5iZC0L9Bw">
+    <elementParameter field="CLOSED_LIST" name="ROUTETYPE" value="simple" xmi:id="_1cYTGMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="&quot;${header.operationName} == 'encrypt' &amp;&amp; ${header.Content-Type} == 'application/json'&quot;" xmi:id="_1cYTGcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ENDOFCHOICE" value="false" xmi:id="_1cYTGsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_1cYTG8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_1cYTHMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_1cYTHcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="when1" xmi:id="_1cYTHsYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <connection connectorName="ROUTE_WHEN" label="when2" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="cMessageRouter_1" target="cSetBody_2" xmi:id="_1cYTH8YZEeibM5iZC0L9Bw">
+    <elementParameter field="CLOSED_LIST" name="ROUTETYPE" value="simple" xmi:id="_1cYTIMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="&quot;${header.operationName} == 'encryptString' &amp;&amp; ${header.Content-Type} == 'text/plain'&quot;" xmi:id="_1cYTIcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="ENDOFCHOICE" value="false" xmi:id="_1cYTIsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_1cYTI8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_1cYTJMYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_1cYTJcYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="when2" xmi:id="_1cYTJsYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <connection connectorName="ROUTE_OTHER" label="otherwise1" lineStyle="16" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_1" target="cSetBody_3" xmi:id="_1cYTJ8YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="otherwise1" xmi:id="_1cYTKMYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route10" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cOnException_1" target="cLog_1" xmi:id="_1cYTKcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route10" xmi:id="_1cYTKsYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route11" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cSetBody_1" xmi:id="_1cYTK8YZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route11" xmi:id="_1cYTLMYZEeibM5iZC0L9Bw"/>
+  </connection>
+  <subjob xmi:id="_1cYTLcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cREST_1" xmi:id="_1cYTLsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTL8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTMMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTMcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cBeanRegister_1" xmi:id="_1cYTMsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTM8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTNMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTNcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cConfig_1" xmi:id="_1cYTNsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTN8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTOMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTOcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMessageRouter_1" xmi:id="_1cYTOsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTO8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTPMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTPcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_1cYTPsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTP8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTQMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTQcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_3" xmi:id="_1cYTQsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTQ8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTRMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTRcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cProcessor_2" xmi:id="_1cYTRsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTR8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTSMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTScYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cOnException_1" xmi:id="_1cYTSsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTS8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTTMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTTcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_1cYTTsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTT8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTUMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+  <subjob xmi:id="_1cYTUcYZEeibM5iZC0L9Bw">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_1cYTUsYZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_1cYTU8YZEeibM5iZC0L9Bw"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_1cYTVMYZEeibM5iZC0L9Bw"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_97b9c997-84f5-4bca-aebb-092e11bebff3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eS6D9p7+aJpymnXyeIxAcvdeqJpApGKWYYWYZVTBRhHY6BDBwKlP3gISq8iCRU1IHn66mhqHzae/
+Ql+4QA/8Eg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1dee40ce-327b-416a-b709-14d74faa1155"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>smWHq4IpbdW3ZpoY3g8BGPanJHDPCOcOE7i0lJERqSFjWZ5rzgZ1J0CcezZO+yyArIDWiUu9oplG
+GUPMYzFsGw==</DigestValue></Reference></SignedInfo><SignatureValue>wDKw6G8cJH7xbb/+bT0//QH+fv+Mfeeik7a1jMvsF/8duFZbVJetlip8l7jxuOH+iDp54JyK2NWE
+md2yfKkZMt05S6Th5b1d8eZfV5y0PNHlN4DKA48MrgVUXPXi6DjoRcqlKMGh3OYBfd83PTA84Twf
+6CGlWt5kYpnCOSHc3nSZSYXj0mBn84yKeXgIoQuYqayIdPOGjpSapIyWMVaAJwXxtlKR5cxsgf9+
+OrsoeiaCFW9GwGmacRteH3uroggkKffDSPMcqF9LYDoW1zXcdgOmhK0ZfQrQWjMwrmlahy7oSdRT
+de7KJ87nUeHVc4BthwdXL+g+Lvy1t65zf/hCBA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1dee40ce-327b-416a-b709-14d74faa1155" Target="#_97b9c997-84f5-4bca-aebb-092e11bebff3"><Timestamp>2018-10-02 08:04:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

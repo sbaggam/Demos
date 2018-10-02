@@ -1,0 +1,29 @@
+package beans;
+
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlRootElement
+@XmlType
+public class TalendEncryptionResponse {
+
+    private String projectName;
+    private String encryptedValue;
+
+    public String getProjectName() {
+        return projectName;
+    }
+
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
+    }
+
+    public String getEncryptedValue() {
+        return encryptedValue;
+    }
+
+    public void setEncryptedValue(String encryptedValue) {
+        this.encryptedValue = encryptedValue;
+    }
+
+}

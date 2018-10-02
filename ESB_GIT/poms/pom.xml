@@ -10,6 +10,8 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>code/beans</module>
+    <module>jobs/routes/com/bayer/operations/security/restserviceexample_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ESB_GIT</talend.project.name>

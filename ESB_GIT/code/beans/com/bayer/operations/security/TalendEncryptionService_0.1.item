@@ -1,0 +1,26 @@
+package beans;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+public interface TalendEncryptionService {
+
+	@POST
+	@Path("/encrypt")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public TalendEncryptionResponse encrypt(TalendEncryptionRequest request);
+
+	@POST
+	@Path("/{environment}/{projectName}/encrypt")
+	@Consumes(MediaType.TEXT_PLAIN)
+	@Produces(MediaType.TEXT_PLAIN)
+	public String encryptString(
+			@PathParam("environment") String environment,
+			@PathParam("projectName") String projectName, 
+			String body);
+}
